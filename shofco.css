@@ -1,0 +1,104 @@
+
+.container{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  background-color: #0b4237;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+body{
+    font-size: 1.3em;
+    font-family: 'Work Sans','sans-serif';
+}
+nav{
+    margin: 0;
+    padding: 0.1% 0;
+    margin-right: 0;
+    color: #0b4237;
+
+}
+nav ul{
+    text-align: right;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+   color: white;
+    padding: 0 30px;
+}
+ul li a:hover{
+    box-shadow: rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+}
+nav h1{
+    color: darkblue;
+}
+.blockquote{
+  max-width: 600px;  
+  margin: 10px 30px;
+  padding: 25px;
+  background-color: #f8fffe ;
+  border: 1px solid #b0d2cb;
+  color: #0b4237;
+  box-sizing: border-box;
+  border-left-width: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.blockquote::before{
+    content: "\201c";
+    font-size: 90px;
+}
+.blockquote-text{
+
+font-style: italic;
+line-height: 1.5;
+margin: 0;
+
+}
+.credit{
+    font-style: normal;
+    text-align: right;
+
+}
+.credit::before{
+    content: "\2014\0020";
+}
+#slogan{
+    align-items: center;
+    justify-content: center;
+}
+#Music img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+#Writing img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+#Dance img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+.banner-card img{
+    width: 600px;
+    height: auto;
+}
+.Current img{
+    width: 600px;
+    height: 500px;
+}
+.Alumni img{
+    width: 600px;
+    height: auto;
+}
